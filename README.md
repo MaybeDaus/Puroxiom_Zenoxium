@@ -4,9 +4,9 @@
 - [Member 1], 
 - Siti Nur Syazwani Khong
 
-**Problem Statement:** [Stress & Workload Manager / Travel Planner]
-**Video Presentation:** [Unlisted YouTube Link]
-**Presentation Slides:** [Public Link]
+- **Problem Statement:** [Stress & Workload Manager / Travel Planner
+- **Video Presentation:** [Unlisted YouTube Link]
+- **Presentation Slides:** [Public Link]
 
 ---
 
