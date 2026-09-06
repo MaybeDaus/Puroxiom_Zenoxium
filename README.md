@@ -1,6 +1,9 @@
 # [Zenoxium] by [Puroxiom]
 
-**Team:** [Member 1], [Member 2], [Member 3], [Member 4]
+**Team:** 
+- [Member 1], 
+- Siti Nur Syazwani Khong
+
 **Problem Statement:** [Stress & Workload Manager / Travel Planner]
 **Video Presentation:** [Unlisted YouTube Link]
 **Presentation Slides:** [Public Link]
