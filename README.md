@@ -13,8 +13,21 @@
 ## 1. Project Overview
 
 ### The Problem
-State the causes as you understand them, who the stakeholders are, and briefly mention what similar apps exist in the market (at least one) and why they fall short.
 
+University students don't usually become overwhelmed by a single large responsibility; it's the accumulation of many smaller commitments (classes, assignments, club activities, errands) that gradually builds up. Individually, each commitment seems manageable, but when combined, students often don't realize how much they're carrying until they're already exhausted.
+
+**Causes:**
+- Responsibilities are scattered across different tools — a calendar for classes, a to-do list for assignments, a notes app for personal tasks, group chats for social commitments — leaving no single, clear picture of overall workload.
+- New commitments are typically evaluated only against time availability (“Is Saturday free?”), not against actual capacity, so hidden costs like travel, preparation, and recovery time go unaccounted for.
+- Existing tools tell students *what* they have to do and *when*, but not *whether they can realistically take on more*.
+
+**Stakeholders:**
+- Students (primary users), who need a clearer picture of their workload before committing to more.
+- Academic advisors and university wellness centers, who currently lack early-warning tools to identify at-risk students before burnout occurs.
+
+**Existing solutions:** 
+- 
+-
 ### Our Solution
 What it is in 3–4 sentences, then list out your feature set.
 
