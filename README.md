@@ -1,7 +1,7 @@
 # [Zenoxium] by [Puroxiom]
 
 **Team:** 
-- [Member 1], 
+- Muhammad Firdaus 
 - Siti Nur Syazwani Khong
 
 - **Problem Statement:** [Stress & Workload Manager / Travel Planner
