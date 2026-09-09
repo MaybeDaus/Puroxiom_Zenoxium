@@ -1,4 +1,3 @@
-<img width="1920" height="1080" alt="SCAMPER AXONIUM" src="https://github.com/user-attachments/assets/95bf9611-2663-409e-b8e9-7caf20642f36" />
 # [Zenoxium] by [Puroxiom]
 
 **Team:** 
