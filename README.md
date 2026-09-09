@@ -50,8 +50,7 @@ Table of every distinct idea generated, with why each was kept or dropped. Order
 #### Problem Tree
 ![Zenoxium Problem Tree](phase_1/assets/zenoxium_problem_tree.webp)
 
-#### Tech Stack
-![Zenoxium Tech Stack](phase_1/assets/zenoxium_tech_stack.webp)
+
 
 <img width="1920" height="1080" alt="SCAMPER ZENOXIUM" src="https://github.com/user-attachments/assets/825711b7-8694-4a06-9a3e-10e94f8e827e" />
 <img width="8192" height="3873" alt="XZENOXIUM App Workload-2026-09-09-135813" src="https://github.com/user-attachments/assets/a4263b7f-6d2b-42d9-8026-cf11f2b6a357" />
@@ -110,7 +109,8 @@ You can have a comparison table to compare with existing solutions named in sect
 ### Tech Stack
 Tell us your frontend, backend, database, APIs and services, as well as how and where you will be hosting. For each, try to tell us why you chose that technology, and what constraints you expect to face (for example, you chose Supabase because it's free and you'll still need a proxy).
 
-### System Architecture Diagram (optional)
+### System Architecture Diagram
+![Zenoxium Tech Stack](phase_1/assets/zenoxium_tech_stack.webp)
 
 ### Build Plan & Scope
 Explicitly tell the reviewer what you plan to build during the building phase. Narrow scope will read as realistic and feasible, not as a lack of ambition.
