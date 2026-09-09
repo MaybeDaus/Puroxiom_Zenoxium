@@ -51,7 +51,7 @@ You can embed the images directly (recommended) or have links to your ideation b
 
 #### Zenoxium Problem Tree
 ![Zenoxium Problem Tree](phase_1/assets/zenoxium_problem_tree.svg)
-<img width="1920" height="1080" alt="SCAMPER AXONIUM" src="https://github.com/user-attachments/assets/8d58d2a8-abde-4b28-a98a-92d455de7d7a" />
+<img width="1920" height="1080" alt="SCAMPER ZENOXIUM" src="https://github.com/user-attachments/assets/825711b7-8694-4a06-9a3e-10e94f8e827e" />
 
 
 
