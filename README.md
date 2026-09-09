@@ -72,9 +72,12 @@ You can embed images in markdown like so:
 
 ### 2.3 Mentor Consultation
 
-| Date | Mentor | Feedback Received | What Was Changed |
-|---|---|---|---|
-| | | | |
+<img width="518" height="658" alt="Screenshot 2026-09-09 202826" src="https://github.com/user-attachments/assets/8ff78313-46e3-4da3-94b5-e81872af7ba3" />
+<img width="516" height="225" alt="Screenshot 2026-09-09 202833" src="https://github.com/user-attachments/assets/20c44b60-136c-45cc-b0e9-ea57d585ace5" />
+<img width="555" height="497" alt="Screenshot 2026-09-09 202544" src="https://github.com/user-attachments/assets/2aace542-fbfa-4158-bab2-01f0df1e901e" />
+
+
+
 
 Even if you disagreed with a piece of feedback, you can say so and explain why. You will not be penalised for doing something against a mentor's advice — it will still count as engaging with it.
 
