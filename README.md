@@ -77,11 +77,6 @@ You can embed images in markdown like so:
 <img width="555" height="225" alt="Screenshot 2026-09-09 202833" src="https://github.com/user-attachments/assets/20c44b60-136c-45cc-b0e9-ea57d585ace5" />
 
 
-
-
-
-Even if you disagreed with a piece of feedback, you can say so and explain why. You will not be penalised for doing something against a mentor's advice — it will still count as engaging with it.
-
 ---
 
 ## 3. Design & Prototype
