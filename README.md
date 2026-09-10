@@ -111,22 +111,26 @@ You can have a comparison table to compare with existing solutions named in sect
 **React + Vite, Tailwind CSS**
 
 We chose React + Vite for fast dev-server startup and hot reload, which matters given our build window. Tailwind lets us pull design tokens directly from Figma (our source of truth) into `tailwind.config.js`, keeping styling consistent without a separate design system.
+
 *Constraint:* token sync between Figma and Tailwind is currently manual — a design change requires us to re-extract and update the config by hand. No automated pipeline for this yet.
  
 **vite-plugin-pwa**
 
 Packages the app as an installable Progressive Web App (service worker, manifest, offline cache) without needing a native app store submission — directly addresses the problem statement's requirement that the app be "something students would actually keep open on their phone."
+
 *Constraint:* offline support only covers cached UI/static assets; any feature that depends on a live Supabase connection (workload data, AI suggestions) still requires network access.
  
 **Zustand**
 
 Lightweight state management for client-side app state (mood, commitments, UI state) without Redux's boilerplate.
+
 *Constraint:* no built-in devtools/persistence middleware configured yet — state resets on full page reload unless we wire this up.
  
 #### Backend / Database
 **Supabase (Postgres + Auth + Realtime)**
 
 Chosen because it gives us a managed Postgres database, authentication, and realtime subscriptions in one free-tier service, which avoids standing up separate infrastructure for each.
+
 *Constraint:* Supabase's free tier pauses inactive projects and has row/bandwidth limits — acceptable for a hackathon demo, but not a production guarantee. We also can't run arbitrary server-side logic directly against the DB, which is why we're using Edge Functions for anything beyond CRUD.
  
 **Supabase Edge Functions**
@@ -134,6 +138,7 @@ Chosen because it gives us a managed Postgres database, authentication, and real
 Used for two things: 
 - proxying our AI calls so the Gemini API key stays server-side and never reaches the browser
 - a scheduled `pg_cron` job that checks workload against each user's capacity and triggers push notifications.
+
 *Constraint:* Edge Functions run on Demo, not Node — some npm packages aren't directly compatible, so we've had to check compatibility before depending on any library there.
  
 #### AI / APIs
@@ -149,10 +154,12 @@ Used for workload-breach nudges, sent from the `pg_cron` Edge Function independe
  
 #### Hosting / Deployment
 **Vercel**, connected to our GitHub repo (`MaybeDaus/Puroxiom_Zenoxium`) with auto-deploy on push.
+
 *Constraint:* frontend only — Supabase and its Edge Functions are hosted and deployed separately, so a full deploy involves two systems rather than one.
  
 #### Design
 **Figma**
+
 source of truth for all screens and design tokens, referenced during frontend implementation.
 
 ### System Architecture Diagram
