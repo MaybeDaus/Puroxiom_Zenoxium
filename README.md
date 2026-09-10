@@ -144,13 +144,9 @@ Used for workload-breach nudges, sent from the `pg_cron` Edge Function independe
  
 #### Design
 **Figma** — source of truth for all screens and design tokens, referenced during frontend implementation.
- 
----
 
 ### System Architecture Diagram
 ![Zenoxium Tech Stack](phase_1/assets/zenoxium_tech_stack.webp)
-
----
 
 ### Build Plan & Scope
 **Phase 1 — Core data & logic (deterministic, no AI)**
