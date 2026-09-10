@@ -131,7 +131,9 @@ Chosen because it gives us a managed Postgres database, authentication, and real
  
 **Supabase Edge Functions**
 
-Used for two things: (1) proxying our AI calls so the Gemini API key stays server-side and never reaches the browser, and (2) a scheduled `pg_cron` job that checks workload against each user's capacity and triggers push notifications.
+Used for two things: 
+(1) proxying our AI calls so the Gemini API key stays server-side and never reaches the browser
+(2) a scheduled `pg_cron` job that checks workload against each user's capacity and triggers push notifications.
 *Constraint:* Edge Functions run on Deno, not Node — some npm packages aren't directly compatible, so we've had to check compatibility before depending on any library there.
  
 #### AI / APIs
@@ -162,13 +164,16 @@ source of truth for all screens and design tokens, referenced during frontend im
 - Commitment CRUD (Add/Edit/Delete) wired to Dashboard
 - Daily workload check (19h/day ceiling) and weekly workload check (133h/week), both mood-adjusted per the streak-decay model
 - Category auto-tagging via keyword matching (Gemini fallback only on no-match)
+
 **Phase 2 — Notifications & AI-backed features**
 - `pg_cron` Edge Function for breach detection + Web Push delivery
 - Gemini-backed functions via proxy Edge Function: Workload Rebalancing suggestions, general advice, and hidden-cost detection on commitments
+
 **Phase 3 — Polish**
 - Monthly calendar view
 - Insights screen
 - Simulation screen (client-side only for the hackathon — no DB writes, to keep scope contained)
+
 **Explicitly out of scope for this build window:**
 - Multi-device sync beyond what Supabase Realtime gives us by default
 - Native mobile apps (PWA only)
