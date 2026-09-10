@@ -134,7 +134,7 @@ Chosen because it gives us a managed Postgres database, authentication, and real
 Used for two things: 
 - proxying our AI calls so the Gemini API key stays server-side and never reaches the browser
 - a scheduled `pg_cron` job that checks workload against each user's capacity and triggers push notifications.
-- *Constraint:* Edge Functions run on Deno, not Node — some npm packages aren't directly compatible, so we've had to check compatibility before depending on any library there.
+*Constraint:* Edge Functions run on Demo, not Node — some npm packages aren't directly compatible, so we've had to check compatibility before depending on any library there.
  
 #### AI / APIs
 **Gemini 2.5 Flash-Lite via Google AI Studio**
