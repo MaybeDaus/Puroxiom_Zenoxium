@@ -137,7 +137,7 @@ Used for two things: (1) proxying our AI calls so the Gemini API key stays serve
 #### AI / APIs
 **Gemini 2.5 Flash-Lite via Google AI Studio**
 
-We deliberately scoped AI usage to three functions where judgment or natural-language generation genuinely adds value: Workload Rebalancing suggestions, general advice (generated from the user's current mood, schedule, and workload together), and hidden-cost detection (an LLM call that reads a commitment's notes/task text to flag time or energy costs the user likely underestimated). Everything else (category tagging, capacity math, breach detection) runs on deterministic logic. Gemini 2.5 Flash-Lite is free-tier on Google AI Studio and fast enough for this use case.
+We deliberately scoped AI usage to three functions where judgment or natural-language generation genuinely adds value: Workload Rebalancing suggestions, personalized advice (generated from the user's current mood, schedule, and workload together), and hidden-cost detection (an LLM call that reads a commitment's notes/task text to flag time or energy costs the user likely underestimated). Everything else (category tagging, capacity math, breach detection) runs on deterministic logic. Gemini 2.5 Flash-Lite is free-tier on Google AI Studio and fast enough for this use case.
 *Constraint:* free-tier requests are rate-limited, and multi-turn coherence across a conversation (e.g. a rebalancing chat) is a known risk — our mitigation is to progressively summarize confirmed slots into the system prompt rather than replaying full history.
  
 **Web Push (VAPID)**
