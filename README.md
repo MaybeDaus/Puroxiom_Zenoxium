@@ -69,20 +69,22 @@ Table of every distinct idea generated, with why each was kept or dropped. Order
 
 ## 2.1 Ideas We Considered
 
-| Idea | Why it was dropped / kept |
-|---|---|
-| **Burnout & Workload Manager** — A system that helps students understand and manage their workload by analyzing commitments, hidden time/effort, priorities, and workload impact. | **Kept — Chosen as our final problem statement.** It addresses a relevant student problem, has strong potential for AI integration, and allows us to provide more than simple task management through workload prediction, what-if analysis, and recovery recommendations. |
-| **AI Commitment Analyzer** — An AI feature that analyzes a new commitment and estimates its hidden time, effort, and impact on the user's existing workload. | **Kept.** It directly supports the main workload-management problem and provides a meaningful use case for AI. |
-| **What-If Workload Simulation** — Allows users to see how adding a new commitment would affect their existing workload before accepting it. | **Kept.** It helps users make informed decisions before taking on additional commitments and makes the workload impact easier to understand. |
-| **Recovery Recommendation System** — Provides recommendations when the user's workload reaches a high level. | **Kept.** It extends the solution beyond task management by helping users respond to excessive workload. |
-| **Mood Check-In** — Allows users to record their current mood before viewing their workload. | **Kept.** It provides additional context about the user's current state and complements the workload analysis. |
-| **Travel Planner** — A planner that helps users organize trips, including schedules, activities, and travel commitments. | **Dropped.** Although useful and feasible, it was less aligned with our chosen direction and offered less opportunity to address the student burnout and workload problem. |
-| **Simple To-Do List** — A basic system for recording and checking off tasks. | **Dropped.** It was too similar to existing task-management applications and did not sufficiently address the underlying problem of workload overload. |
-| **Study Planner** — A system that creates study schedules based on subjects, deadlines, and available time. | **Dropped.** It focused mainly on academic scheduling and did not account for other types of commitments such as social, physical, mental, and personal responsibilities. |
-| **Flexible Workload Categories** — Allows users to create completely custom workload categories. | **Dropped.** Although flexible categories would allow greater customization, they could introduce inconsistent categorization and increase system complexity, making workload analysis and AI recommendations less reliable. |
-| **AI Academic Note Summarizer & Quiz Generator** — Uses AI to summarize academic notes and generate quizzes for students. | **Dropped.** Although useful for students, it focused more on study assistance than workload and burnout management, making it less relevant to our chosen problem statement. |
-| **Habit Tracker** — A system for tracking daily habits and routines. | **Dropped.** It was useful for personal development but did not directly address the problem of managing multiple competing commitments and workload. |
-| **Calendar-Based Planner** — A planner that organizes tasks and commitments using a calendar interface. | **Dropped as a standalone concept.** A calendar is useful for organizing commitments, but by itself it does not analyze workload or identify the hidden time and effort required by commitments. |
+| Idea | Description | Option & Reason |
+|---|---|---|
+| **Burnout & Workload Manager** | A system designed to help students understand, manage, and balance their workload across academic, personal, physical, mental, and social commitments. | **Kept** — Directly addresses student burnout and provides strong opportunities for AI integration, workload analysis, prediction, and personalized recommendations. |
+| **AI Commitment Analyzer** | Uses AI to analyze a new commitment and identify its hidden time, effort, and workload impact before the user accepts it. | **Kept** — Supports the main problem by helping users understand the actual impact of new commitments before making decisions. |
+| **What-If Workload Simulation** | Allows users to see how adding a new commitment could affect their existing workload and whether the overall workload remains manageable. | **Kept** — Adds a predictive element to the system and helps users make informed decisions before accepting new commitments. |
+| **Recovery Recommendation System** | Provides recommendations when the user's workload becomes too high, helping them identify suitable ways to recover and manage their commitments. | **Kept** — Complements workload analysis by providing actionable support when the user's workload reaches an unhealthy level. |
+| **Mood Check-In** | Allows users to record their current mood so the system can consider their emotional state alongside their workload. | **Kept** — Adds emotional context and allows the system to provide more personalized workload and recovery recommendations. |
+| **Travel Planner** | A planning system that helps users organize trips, including schedules, activities, and travel arrangements. | **Dropped** — Although useful and practical, it was less relevant to the team's focus and offered less opportunity to address the issue of student burnout and workload management. |
+| **Simple To-Do List** | A basic task-management system for recording and organizing tasks and deadlines. | **Dropped** — Too similar to existing task-management applications and does not address the underlying problem of workload overload or burnout. |
+| **Study Planner** | A planner focused mainly on organizing study sessions, academic tasks, and examination preparation. | **Dropped** — Focuses mainly on academic responsibilities and does not account for other sources of workload such as social, physical, mental, and personal commitments. |
+| **Flexible Workload Categories** | Allows users to create their own workload categories based on their personal needs. | **Dropped** — Although it increases customization, unrestricted categories may cause inconsistent classification, increase system complexity, and reduce the reliability of workload analysis and AI recommendations. |
+| **AI Academic Note Summarizer & Quiz Generator** | Uses AI to summarize academic notes and generate quizzes to support students in their studies. | **Dropped** — Useful for academic support, but it solves a study-assistance problem rather than the central workload and burnout problem. |
+| **Habit Tracker** | Helps users track and maintain personal habits and routines over time. | **Dropped** — Useful for personal development, but it does not directly address workload management or the competing commitments that contribute to burnout. |
+| **Calendar-Based Planner** | Uses a calendar interface to organize tasks, deadlines, and commitments. | **Dropped as a standalone idea** — A calendar is useful for the final system, but by itself it only organizes commitments and does not analyze workload, hidden effort, or burnout risk. |
+
+
 ### 2.2 Ideation Boards
 
 #### Problem Tree
