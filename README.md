@@ -148,7 +148,7 @@ You can have a comparison table to compare with existing solutions named in sect
 
 ### System Architecture Diagram
 
-![Zenoxium Tech Stack](phase_1/assets/zenoxium_tech_stack_v2.webp)
+![Zenoxium Tech Stack](phase_1/assets/zenoxium_tech_stack_v3.webp)
 
 ### Build Plan & Scope
 
