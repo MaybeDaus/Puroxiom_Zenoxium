@@ -50,6 +50,9 @@ Table of every distinct idea generated, with why each was kept or dropped. Order
 #### Problem Tree
 ![Zenoxium Problem Tree](phase_1/assets/zenoxium_problem_tree.webp)
 
+#### User Flow
+![Zenoxium User Flow](phase_1/assets/zenoxium_user_flow.webp)
+
 
 
 <img width="1920" height="1080" alt="SCAMPER ZENOXIUM" src="https://github.com/user-attachments/assets/825711b7-8694-4a06-9a3e-10e94f8e827e" />
@@ -145,7 +148,7 @@ You can have a comparison table to compare with existing solutions named in sect
 
 ### System Architecture Diagram
 
-![Zenoxium Tech Stack](phase_1/assets/zenoxium_tech_stack.webp)
+![Zenoxium Tech Stack](phase_1/assets/zenoxium_tech_stack_v2.webp)
 
 ### Build Plan & Scope
 
