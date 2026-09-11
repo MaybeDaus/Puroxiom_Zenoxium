@@ -124,7 +124,7 @@ You can have a comparison table to compare with existing solutions named in sect
 
 | Tool | Why We Chose It | Constraint |
 |---|---|---|
-| **Supabase (Postgres + Auth + Realtime)** | Gives us a managed Postgres database, authentication, and realtime subscriptions in one free-tier service, avoiding separate infrastructure for each. | Free tier pauses inactive projects and has row/bandwidth limits — acceptable for a hackathon demo, not a production guarantee. Also can't run arbitrary server-side logic directly against the DB, which is why we use Edge Functions for anything beyond CRUD. |
+| **Supabase (Postgres + Auth + Realtime)** | Gives us a managed Postgres database, authentication, and realtime subscriptions in one free-tier service, avoiding separate infrastructure for each. | Free tier pauses inactive projects and has row/bandwidth limits — not a production guarantee. Also can't run arbitrary server-side logic directly against the DB, which is why we use Edge Functions for anything beyond CRUD. |
 | **Supabase Edge Functions** | Used for two things: (1) proxying AI calls so the Gemini API key stays server-side and never reaches the browser, (2) a scheduled `pg_cron` job that checks workload against each user's capacity and triggers push notifications. | Edge Functions run on Deno, not Node — some npm packages aren't directly compatible, so we check compatibility before depending on any library there. |
 
 #### AI / APIs
@@ -156,7 +156,7 @@ You can have a comparison table to compare with existing solutions named in sect
 |---|---|
 | **Phase 1 — Core data & logic** (deterministic, no AI) | Supabase schema (users, commitments, mood check-ins, category tags) · Commitment CRUD wired to Dashboard · Daily workload check (19h/day ceiling) + weekly workload check (133h/week), both mood-adjusted per the streak-decay model · Category auto-tagging via keyword matching (Gemini fallback only on no-match) |
 | **Phase 2 — Notifications & AI-backed features** | `pg_cron` Edge Function for breach detection + Web Push delivery · Gemini-backed functions via proxy Edge Function: Workload Rebalancing suggestions, general advice, hidden-cost detection |
-| **Phase 3 — Polish** | Monthly calendar view · Insights screen · Simulation screen (client-side only for the hackathon — no DB writes, to keep scope contained) |
+| **Phase 3 — Polish** | Monthly calendar view · Insights screen · Simulation screen (client-side only) |
 
 **Explicitly out of scope for this build window:**
 
