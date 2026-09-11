@@ -127,9 +127,69 @@ We recommend you embed or link 4–8 key screens as images, with a caption on ea
 
 ## 4. What Makes It Different
 
-List out novel features and explain briefly which each is original or what the twist is.
+Zenoxium is different from conventional productivity and wellness applications because it does not treat task management and well-being as separate problems. Instead, it connects a student's commitments, workload, and current state to help them understand whether taking on something new is realistic.
 
-You can have a comparison table to compare with existing solutions named in section 1, but this is completely optional.
+### 4.1 Novel Features
+
+| **Feature** | **What Makes It Different** |
+|---|---|
+| **AI Commitment Analyzer** | Instead of simply adding a task to a to-do list, Zenoxium analyzes a new commitment and identifies its potential hidden time and effort requirements before the user accepts it. |
+| **What-If Workload Simulation** | Users can see the potential impact of a new commitment before committing to it. The system evaluates how the additional commitment could affect their existing workload and whether it remains manageable. |
+| **Cross-Category Workload Analysis** | Unlike conventional productivity apps that mainly focus on tasks, Zenoxium considers different types of commitments, including time, mental, physical, errands, and social workload. |
+| **Workload Threshold Alerts** | Rather than only reminding users about deadlines, Zenoxium identifies when their overall workload reaches a high level and provides an early warning before they become overwhelmed. |
+| **Mood + Workload Connection** | Zenoxium combines the user's mood check-in with workload information, allowing users to view their workload alongside how they are feeling rather than treating emotional well-being as a separate issue. |
+| **Calendar Import** | Users can import existing calendar commitments instead of manually entering everything. This allows Zenoxium to analyze commitments that are already part of their schedule and provide a more complete picture of their workload. |
+| **Recovery Recommendations** | When workload becomes high, Zenoxium does not simply display a warning. It provides recovery suggestions based on the user's current situation, making the system more action-oriented. |
+| **Workload Insights** | The system converts commitments into understandable insights by showing workload across different categories and priorities, helping users identify where their workload is concentrated. |
+
+### 4.2 The Core Difference
+
+Most productivity tools answer:
+
+> **"What do I need to do?"**
+
+Zenoxium aims to answer:
+
+> **"Can I realistically take this on?"**
+
+Instead of simply helping students organize more tasks, Zenoxium helps them understand the impact of their commitments before adding more.
+
+### 4.3 Comparison with Existing Solutions
+
+| **Existing Solution** | **Main Focus** | **Limitation** | **Zenoxium's Difference** |
+|---|---|---|---|
+| **Notion** | Notes, tasks, and databases | General-purpose and requires users to build their own system | Provides a focused workload-management system designed around student commitments and capacity. |
+| **Todoist** | Tasks and deadlines | Focuses on what needs to be completed rather than whether the user can realistically take on more | AI analyzes the potential workload impact of a new commitment before it is accepted. |
+| **Trello** | Project and task organization | No personal workload or burnout awareness | Evaluates workload across multiple categories and provides threshold alerts. |
+| **Microsoft To Do** | Tasks, reminders, and synchronization | Primarily focuses on task completion and reminders | Connects existing commitments with workload analysis and what-if simulation. |
+| **Calm / Headspace** | Meditation and relaxation | Addresses stress mainly through wellness activities | Connects well-being with the workload that may be contributing to stress. |
+| **Balance** | Personalized meditation | Focuses on relaxation rather than workload | Uses workload information alongside mood to provide more contextual support. |
+| **Sanvello** | Mood tracking and mental wellness | Treats stress and mood largely as separate wellness metrics | Connects mood information with actual workload and commitments. |
+
+### 4.4 The Gap We Address
+
+Existing productivity applications are effective at helping users organize and complete tasks, while wellness applications focus on managing stress and improving well-being. However, these two areas are usually separated.
+
+Zenoxium bridges this gap by connecting:
+
+**Existing Commitments**  
+↓  
+**Workload Across Different Categories**  
+↓  
+**Current Mood and State**  
+↓  
+**AI Analysis of New Commitments**  
+↓  
+**What-If Workload Simulation**  
+↓  
+**Early Workload Warning**  
+↓  
+**Actionable Recommendations**
+
+This means Zenoxium is not simply another to-do list or wellness application. Its main difference is that it helps students understand the relationship between what they are carrying and whether they can realistically take on more.
+
+> **Zenoxium doesn't just help students manage their tasks — it helps them decide whether they have the capacity to take on more.**
+
 
 ---
 
