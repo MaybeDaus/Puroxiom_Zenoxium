@@ -4,7 +4,7 @@
 - Muhammad Firdaus 
 - Siti Nur Syazwani Khong
 
-- **Problem Statement:** [Stress & Workload Manager / Travel Planner
+- **Problem Statement:** Stress & Workload Manager
 - **Video Presentation:** [Unlisted YouTube Link]
 - **Presentation Slides:** [Public Link]
 
@@ -18,18 +18,46 @@ University students don't usually become overwhelmed by a single large responsib
 
 **Causes:**
 - Responsibilities are scattered across different tools — a calendar for classes, a to-do list for assignments, a notes app for personal tasks, group chats for social commitments — leaving no single, clear picture of overall workload.
-- New commitments are typically evaluated only against time availability (“Is Saturday free?”), not against actual capacity, so hidden costs like travel, preparation, and recovery time go unaccounted for.
+- New commitments are typically evaluated only against time availability ("Is Saturday free?"), not against actual capacity, so hidden costs like travel, preparation, and recovery time go unaccounted for.
 - Existing tools tell students *what* they have to do and *when*, but not *whether they can realistically take on more*.
 
 **Stakeholders:**
-- Students (primary users), who need a clearer picture of their workload before committing to more.
-- Academic advisors and university wellness centers, who currently lack early-warning tools to identify at-risk students before burnout occurs.
 
-**Existing solutions:** 
-- 
--
+| Stakeholder | Role | Unmet Need |
+|---|---|---|
+| Students (primary) | End users | A clearer picture of their workload before committing to more |
+| Academic advisors & wellness centers (secondary) | Support system | No early-warning tools to identify at-risk students before burnout occurs |
+
+**Existing solutions:**
+
+| App | Type | What It Does | Where It Falls Short |
+|---|---|---|---|
+| Notion | Productivity | All-in-one workspace for notes, tasks, and databases | General-purpose; not built around workload or capacity |
+| Todoist | Productivity | Natural-language task input, recurring tasks | Tracks *what* is due, not whether the user can realistically take on more |
+| Trello | Productivity | Visual board-based project management | No concept of personal capacity or burnout risk |
+| Microsoft To Do | Productivity | Lightweight task manager, Outlook sync | Reminders and sync only; no workload awareness |
+| Calm / Headspace | Wellness | Guided meditation, sleep content | Addresses stress symptoms after the fact, disconnected from actual task load |
+| Balance | Wellness | Adaptive meditation coach | Personalizes relaxation content, not workload |
+| Sanvello | Wellness | CBT-based exercises, mood tracking | Treats stress as a standalone metric, not something driven by an overloaded schedule |
+
+**The gap:** Productivity tools optimize task execution but ignore burnout; wellness apps address stress but are blind to its cause — the workload itself. None connect *what a student is carrying* across mental, physical, social, and errand commitments to *how they're actually feeling*, or help them act on that link before burnout hits. Many advanced features are also paywalled, and general-purpose tools like Notion or Trello can overwhelm new users with unnecessary complexity.
+
+Zenoxium's differentiation is this direct link: workload across categories → mood-adjusted capacity ceilings → rebalancing suggestions, in one lightweight PWA rather than five disconnected apps.
+
 ### Our Solution
-What it is in 3–4 sentences, then list out your feature set.
+
+Zenoxium is a lightweight Progressive Web App that gives students one clear picture of what they're carrying — instead of scattering it across a calendar, a to-do list, and a wellness app — and actively helps them do something about it before burnout hits.
+
+**Core mechanics:**
+
+| Mechanic | What It Does |
+|---|---|
+| Workload across four categories | Mental, Physical, Social, and Errands. Every commitment gets tagged (auto-suggested via keyword matching, AI as fallback) so load is visible by area, not one undifferentiated task list |
+| Capacity, not just time | Each category has a usable-capacity ceiling that adjusts based on a daily mood check-in (Good, Tired, Too Tired, Overwhelmed), with fatigue accumulating the longer a bad mood streak continues |
+| Rebalancing, not just reporting | On breach, an AI-assisted step looks at category load, breach severity, mood state, and task priority to suggest what to defer, drop, or protect |
+| Recovery nudges | Soft, non-blocking push notifications pointing toward rest or a specific recovery action when thresholds are breached — never a hard stop |
+
+This directly closes the gap named above: productivity tools track tasks but ignore capacity; wellness apps address stress symptoms but are blind to what's causing them. Zenoxium connects the two in one place a student would actually keep open on their phone.
 
 ---
 
