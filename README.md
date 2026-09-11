@@ -82,31 +82,16 @@ Table of every distinct idea generated, with why each was kept or dropped. Order
 ![Zenoxium User Flow](phase_1/assets/zenoxium_user_flow.webp)
 
 
-
+#### SCAMPER Model
 <img width="1920" height="1080" alt="SCAMPER ZENOXIUM" src="https://github.com/user-attachments/assets/825711b7-8694-4a06-9a3e-10e94f8e827e" />
+
+#### Mindmap Features
 <img width="8192" height="3873" alt="XZENOXIUM App Workload-2026-09-09-135813" src="https://github.com/user-attachments/assets/a4263b7f-6d2b-42d9-8026-cf11f2b6a357" />
 
 
 
 
 
-**IMPORTANT:** You can express this in any way you like, including but not limited to:
-- Mindmaps
-- Problem trees
-- Flowcharts
-- User flows
-- Crazy eights
-- Affinity diagrams
-- SCAMPER grids
-- Fishbone diagrams
-- 5 Whys chains
-- Any other scribbles :)
-
-You can embed images in markdown like so:
-
-```markdown
-![Mindmap](mindmap.png)
-```
 
 ### 2.3 Mentor Consultation
 
