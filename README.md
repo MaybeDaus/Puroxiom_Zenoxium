@@ -12,7 +12,22 @@
 
 ## 1. Project Overview
 
-### The Problem
+### Initial Problem statement
+
+| **Problem Statement** | **Problem** | **Target Users** | **Main Idea** |
+|---|---|---|---|
+| **Travel Planner** | Travelers often need to manage different aspects of a trip, such as destinations, activities, schedules, and transportation, which can become difficult to organize in one place. | Travelers, especially students and young adults | A centralized travel planning tool that helps users organize their itinerary, activities, and travel arrangements efficiently. |
+| **Burnout & Workload Manager** | Students often struggle to balance academic, personal, social, physical, mental, and other commitments, making it difficult to recognize when their workload becomes overwhelming. | Students | A workload management system that helps students understand their overall workload, assess the impact of new commitments, and make better decisions before becoming overwhelmed. |
+
+> Conclusion
+
+After comparing both problem statements, we decided to proceed with the Burnout & Workload Manager. Although the Travel Planner was practical and useful, the Burnout & Workload Manager was more relevant to students and provided greater potential for meaningful innovation.
+
+The workload problem goes beyond simply organizing tasks because students often have to balance academic, personal, social, physical, and mental commitments simultaneously. This gave us a stronger opportunity to develop a solution that not only organizes commitments, but also analyzes workload, predicts the impact of new commitments, and provides personalized recommendations.
+
+Therefore, we chose the Burnout & Workload Manager as our final problem statement because it has greater potential to create meaningful impact while allowing us to make effective use of AI and innovative workload-management features.
+
+### The Problem (Stress & Workload Manager)
 
 University students don't usually become overwhelmed by a single large responsibility; it's the accumulation of many smaller commitments (classes, assignments, club activities, errands) that gradually builds up. Individually, each commitment seems manageable, but when combined, students often don't realize how much they're carrying until they're already exhausted.
 
