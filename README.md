@@ -65,10 +65,6 @@ This directly closes the gap named above: productivity tools track tasks but ign
 
 ### 2.1 Ideas We Considered
 
-Table of every distinct idea generated, with why each was kept or dropped. Order it so that chosen ideas are listed first.
-
-## 2.1 Ideas We Considered
-
 | Idea | Description | Option & Reason |
 |---|---|---|
 | **Burnout & Workload Manager** | A system designed to help students understand, manage, and balance their workload across academic, personal, physical, mental, and social commitments. | **Kept** — Directly addresses student burnout and provides strong opportunities for AI integration, workload analysis, prediction, and personalized recommendations. |
