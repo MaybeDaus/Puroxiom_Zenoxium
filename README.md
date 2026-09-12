@@ -6,7 +6,7 @@
 
 - **Problem Statement:** Stress & Workload Manager
 - **Video Presentation:** [Unlisted YouTube Link]
-- **Presentation Slides:** [Public Link]
+- **Presentation Slides:** (https://canva.link/21zjwz7y6t2or7j)
 
 ---
 
@@ -96,6 +96,9 @@ This directly closes the gap named above: productivity tools track tasks but ign
 | **Flexible Workload Categories** | Allows users to create their own workload categories based on their personal needs. | **Dropped** — Although it increases customization, unrestricted categories may cause inconsistent classification, increase system complexity, and reduce the reliability of workload analysis and AI recommendations. |
 | **AI Academic Note Summarizer & Quiz Generator** | Uses AI to summarize academic notes and generate quizzes to support students in their studies. | **Dropped** — Useful for academic support, but it solves a study-assistance problem rather than the central workload and burnout problem. |
 | **Habit Tracker** | Helps users track and maintain personal habits and routines over time. | **Dropped** — Useful for personal development, but it does not directly address workload management or the competing commitments that contribute to burnout. |
+
+<img width="2720" height="1920" alt="final_concept_breakdown" src="https://github.com/user-attachments/assets/aa8e445a-3227-46bd-b476-d006b3cbe066" />
+
 
 ### 2.2 Ideation Boards
 
