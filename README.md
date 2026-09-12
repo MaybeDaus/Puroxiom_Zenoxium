@@ -130,10 +130,6 @@ This directly closes the gap named above: productivity tools track tasks but ign
 
 **UI Prototype:** https://www.figma.com/design/dPWkejPgv4R6o737HRBrlx/ZENOXIUM?node-id=0-1&t=IVfGzySWMFWpZd5D-1
 
-Check that it opens in an incognito window. This can be a link to Figma, Canva, Netlify, Vercel, or any other board where you showcase your UI. It can be clickable with hyperlinks or simply ordered screenshots.
-
-We recommend you embed or link 4–8 key screens as images, with a caption on each explaining the interaction.
-
 ---
 
 ## 4. What Makes It Different
