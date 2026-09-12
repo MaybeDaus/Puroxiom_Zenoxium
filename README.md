@@ -265,5 +265,6 @@ This means Zenoxium is not simply another to-do list or wellness application. It
 ---  
 
 ### Timeline
-<img width="2483" height="1423" alt="Untitled" src="https://github.com/user-attachments/assets/8122c890-b6eb-4233-a819-cc851b73e3e3" />
+<img width="7950" height="3158" alt="Communication Response Flow-2026-09-12-102610" src="https://github.com/user-attachments/assets/2b5ae698-c5dd-48a5-9d1c-3cef5c62e33d" />
+
 
