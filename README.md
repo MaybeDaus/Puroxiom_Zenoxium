@@ -262,6 +262,8 @@ This means Zenoxium is not simply another to-do list or wellness application. It
 - Any AI feature beyond Rebalancing suggestions, general advice, and hidden-cost detection
 - Automated Figma → Tailwind token sync
 
-###Timeline
+---  
+
+### Timeline
 <img width="2483" height="1423" alt="Untitled" src="https://github.com/user-attachments/assets/8122c890-b6eb-4233-a819-cc851b73e3e3" />
 
