@@ -128,7 +128,7 @@ This directly closes the gap named above: productivity tools track tasks but ign
 
 ## 3. Design & Prototype
 
-**UI Prototype:** <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/dPWkejPgv4R6o737HRBrlx/ZENOXIUM?node-id=0-1&embed-host=share" allowfullscreen></iframe>
+**UI Prototype:** https://www.figma.com/design/dPWkejPgv4R6o737HRBrlx/ZENOXIUM?node-id=0-1&t=IVfGzySWMFWpZd5D-1
 
 Check that it opens in an incognito window. This can be a link to Figma, Canva, Netlify, Vercel, or any other board where you showcase your UI. It can be clickable with hyperlinks or simply ordered screenshots.
 
