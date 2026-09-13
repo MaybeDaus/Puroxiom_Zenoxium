@@ -5,7 +5,7 @@
 - Siti Nur Syazwani Khong
 
 - **Problem Statement:** Stress & Workload Manager
-- **Video Presentation:** [Unlisted YouTube Link]
+- **Video Presentation:** (https://youtu.be/zCHs_Y5kc1M?si=gIN0wqy8Fn8TUAGD)
 - **Presentation Slides:** (https://canva.link/21zjwz7y6t2or7j)
 
 ---
