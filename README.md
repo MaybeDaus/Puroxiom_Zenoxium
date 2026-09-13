@@ -269,8 +269,19 @@ This means Zenoxium is not simply another to-do list or wellness application. It
 - Automated Figma → Tailwind token sync
 
 ---  
+## Reach & Scalability
+
+While Axonium is designed initially for university students, the underlying concept — helping people understand their true capacity before committing to more — applies to anyone juggling multiple responsibilities. The table below outlines a potential expansion path.
+
+| Phase | User Group | Why It Fits |
+|---|---|---|
+| **Now** | students | Core problem validated firsthand; feasible scope for hackathon build |
+| **Near-term** | Working professionals | Workload categories (Mental, Physical, Social, Errands) generalize beyond academics — meetings, projects, and personal commitments follow the same "hidden cost" and overload patterns |
+| **Long-term** | General public / citizens | The core question — "can I realistically take this on?" — applies to anyone managing multiple responsibilities, not just students or employees (e.g. parents, caregivers, freelancers) |
+
 
 ### Timeline
 <img width="7950" height="3158" alt="Communication Response Flow-2026-09-13-105027" src="https://github.com/user-attachments/assets/bbc1c673-d3b0-47f5-870a-3d2c444d2be3" />
+
 
 
