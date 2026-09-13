@@ -102,6 +102,12 @@ This directly closes the gap named above: productivity tools track tasks but ign
 
 ### 2.2 Ideation Boards
 
+#### Affinity Diagram
+![Zenoxium Affinity Diagram](phase_1/assets/zenoxium_affinity_diagram.webp)
+
+#### Solution Mapping
+![Zenoxium Solution Mapping](phase_1/assets/zenoxium_solution_mapping.webp)
+
 #### Problem Tree
 ![Zenoxium Problem Tree](phase_1/assets/zenoxium_problem_tree.webp)
 
