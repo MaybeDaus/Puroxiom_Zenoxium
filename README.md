@@ -271,7 +271,7 @@ This means Zenoxium is not simply another to-do list or wellness application. It
 ---  
 ## Reach & Scalability
 
-While Axonium is designed initially for university students, the underlying concept — helping people understand their true capacity before committing to more — applies to anyone juggling multiple responsibilities. The table below outlines a potential expansion path.
+While Zenoxium is designed initially for university students, the underlying concept — helping people understand their true capacity before committing to more — applies to anyone juggling multiple responsibilities. The table below outlines a potential expansion path.
 
 | Phase | User Group | Why It Fits |
 |---|---|---|
