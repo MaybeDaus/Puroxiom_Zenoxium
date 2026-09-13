@@ -152,7 +152,7 @@ Zenoxium is different from conventional productivity and wellness applications b
 |---|---|
 | **AI Commitment Analyzer** | Instead of simply adding a task to a to-do list, Zenoxium analyzes a new commitment and identifies its potential hidden time and effort requirements before the user accepts it. |
 | **What-If Workload Simulation** | Users can see the potential impact of a new commitment before committing to it. The system evaluates how the additional commitment could affect their existing workload and whether it remains manageable. |
-| **Cross-Category Workload Analysis** | Unlike conventional productivity apps that mainly focus on tasks, Zenoxium considers different types of commitments, including time, mental, physical, errands, and social workload. |
+| **Cross-Category Workload Analysis** | Unlike conventional productivity apps that mainly focus on tasks, Zenoxium considers different types of commitments, including mental, physical, errands, and social workload. |
 | **Workload Threshold Alerts** | Rather than only reminding users about deadlines, Zenoxium identifies when their overall workload reaches a high level and provides an early warning before they become overwhelmed. |
 | **Mood + Workload Connection** | Zenoxium combines the user's mood check-in with workload information, allowing users to view their workload alongside how they are feeling rather than treating emotional well-being as a separate issue. |
 | **Calendar Import** | Users can import existing calendar commitments instead of manually entering everything. This allows Zenoxium to analyze commitments that are already part of their schedule and provide a more complete picture of their workload. |
@@ -259,7 +259,7 @@ This means Zenoxium is not simply another to-do list or wellness application. It
 |---|---|
 | **Phase 1 — Core data & logic** (deterministic, no AI) | Supabase schema (users, commitments, mood check-ins, category tags) · Commitment CRUD wired to Dashboard · Daily workload check (19h/day ceiling) + weekly workload check (133h/week), both mood-adjusted per the streak-decay model · Category auto-tagging via keyword matching (Gemini fallback only on no-match) |
 | **Phase 2 — Notifications & AI-backed features** | `pg_cron` Edge Function for breach detection + Web Push delivery · Gemini-backed functions via proxy Edge Function: Workload Rebalancing suggestions, general advice, hidden-cost detection |
-| **Phase 3 — Polish** | Monthly calendar view · Insights screen · Simulation screen (client-side only) |
+| **Phase 3 — Polish** | Monthly calendar view · Insights screen |
 
 **Explicitly out of scope for this build window:**
 
